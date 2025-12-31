@@ -18,7 +18,6 @@ export default function Home() {
           </div>
           <div className="hidden md:flex gap-4">
             <a href="#beneficios" className="hover:text-purple-400 transition-all duration-300 hover:scale-110">Beneficios</a>
-            <a href="#producto" className="hover:text-purple-400 transition-all duration-300 hover:scale-110">Producto</a>
             <a href="#contacto" className="hover:text-purple-400 transition-all duration-300 hover:scale-110">Contacto</a>
           </div>
         </nav>
@@ -143,7 +142,7 @@ export default function Home() {
       </section>
 
       {/* Producto Section */}
-      <section id="producto" className="py-20 px-4 relative">
+      <section id="producto" className="py-20 px-4 relative scroll-mt-20">
         {/* Círculos flotantes decorativos */}
         <div className="floating-circle" style={{width: '350px', height: '350px', top: '10%', left: '5%', animation: 'float-2 12s ease-in-out infinite'}}></div>
         <div className="floating-circle" style={{width: '280px', height: '280px', bottom: '5%', right: '8%', animation: 'float-3 7s ease-in-out infinite'}}></div>
@@ -189,7 +188,7 @@ export default function Home() {
       </section>
 
       {/* Contacto Section */}
-      <section id="contacto" className="py-20 px-4 bg-purple-950/30">
+      <section id="contacto" className="py-20 px-4 bg-purple-950/30 scroll-mt-20">
         <div className="container mx-auto max-w-4xl">
           <h3 className="text-4xl font-bold text-center mb-12 text-white hover:text-purple-300 transition-colors duration-300 font-bauhaus">Contacto</h3>
           <p className="text-center text-zinc-300 mb-12 text-lg">¿Listo para mejorar tu vida? Contáctanos</p>
